@@ -1,0 +1,52 @@
+Attached Element Context from Integrated Browser
+
+Element: p
+
+URL: file:///C:/Users/valdi/OneDrive/%C3%81rea%20de%20Trabalho/sobre%20mim/index.html
+
+HTML Path: main#top > section#contato.contact-section > div.contact-actions > p
+
+Outer HTML:
+```html
+<p>Rua da sua garagem, 100<br>São Paulo — SP</p>
+```
+
+Dimensions:
+- top: 256px
+- left: 51px
+- width: 519px
+- height: 59px
+
+CSS:
+```css
+* { box-sizing: border-box; }
+h1, h2, h3, p { margin-top: 0; }
+.contact-actions p { color: #080808; font-size: 11px; line-height: 1.7; margin: 22px 0 0; }
+
+/* Inherited */
+.contact-actions { text-align: right }
+.contact-actions { text-align: left }
+.service-intro, .contact-section { color: var(--ink) }
+body { color: var(--paper); font-family: 'Manrope', sans-serif }
+
+/* Resolved values */
+margin: 22px 0px 0px;
+box-sizing: border-box;
+color: rgb(8, 8, 8);
+display: block;
+font-family: Manrope, sans-serif;
+font-size: 11px;
+height: 37.4px;
+line-height: 18.7px;
+margin-block-end: 0px /*UA*/;
+margin-block-start: 22px /*UA*/;
+margin-inline-end: 0px /*UA*/;
+margin-inline-start: 0px /*UA*/;
+text-align: left;
+unicode-bidi: isolate /*UA*/;
+width: 518.9px;
+
+/* CSS variables */
+--paper: #ffffff;
+--ink: #080808;
+```
